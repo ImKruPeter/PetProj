@@ -124,7 +124,7 @@ Rigidbody:
   m_GameObject: {fileID: 6399658786432582223}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 1
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -140,7 +140,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &5304836307239735228
 MonoBehaviour:
@@ -154,6 +154,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6516a4865f4968b47b688350264ef875, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  _playerRigidbody: {fileID: 8366080166971105309}
-  _playerCollider: {fileID: 323688559078019879}
-  _playerMeshRenderer: {fileID: 7202175663201133491}
+  playerRigidbody: {fileID: 8366080166971105309}
+  playerCollider: {fileID: 323688559078019879}
+  playerMeshRenderer: {fileID: 7202175663201133491}
