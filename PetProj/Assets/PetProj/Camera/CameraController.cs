@@ -9,7 +9,7 @@ namespace PetProj.Camera
         private CameraView _cameraView;
         private PlayerController _playerController;
         
-        private Vector3 _vector3Buffer = new Vector3(0,5,-10);
+        private Vector3 _vector3Buffer = new Vector3(0,7,-8);
         
         public CameraController(CameraView cameraView, PlayerController playerController)
         {
